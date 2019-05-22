@@ -6,14 +6,14 @@ import styles from './releaseStyles.css';
 function Releases({ releases, artist }) {
   const releaseList = releases.map(release => {
     return (
-      <li style={styles.li}key={release.id}>
+      <li className={styles.release} key={release.id}>
         <Release releaseName={release.title} releaseArt={release.coverArt} releaseId={release.id} artist={artist} />
       </li>
     );
   });
   
   return (
-    <ul style={styles.ul}>{releaseList}</ul>
+    <ul className={styles.releases}>{releaseList}</ul>
   );
 }
     

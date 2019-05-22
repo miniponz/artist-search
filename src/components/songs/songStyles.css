@@ -1,0 +1,15 @@
+.songs {
+  list-style: none;
+  font-family: "Helvetica"; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  line-height: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song {
+  height: 15px;
+}

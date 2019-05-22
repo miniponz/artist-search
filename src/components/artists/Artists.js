@@ -13,7 +13,7 @@ function Artists({ artists }) {
   });
 
   return (
-    <ul className={styles.ul}>{artistList}</ul>
+    <ul className={styles.artist}>{artistList}</ul>
   );
 }
 

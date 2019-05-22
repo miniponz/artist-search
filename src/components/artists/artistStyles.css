@@ -1,4 +1,4 @@
-ul {
+.artist {
   list-style: none;
   font-family: "Helvetica"; 
   font-size: 14px; 
@@ -30,7 +30,7 @@ header {
 }
 
 button {
-  width: 50px;
+  width: 70px;
   height: 30px;
   border-radius: 5px;
 }

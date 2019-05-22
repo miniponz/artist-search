@@ -1,4 +1,4 @@
-ul {
+.releases {
   list-style: none;
   font-family: "Helvetica"; 
   font-size: 14px; 
@@ -11,7 +11,7 @@ ul {
   align-items: center;
 }
 
-li {
+.release {
   width: 150px;
   height: 200px;
   display: flex;
