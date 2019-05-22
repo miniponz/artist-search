@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  font-family: "Helvetica"; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  line-height: 20px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+li {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: flex-end;
+}
+
+.release {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
