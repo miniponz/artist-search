@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Songs test renders the Releases 1`] = `
-<ul>
+<ul
+  className="songs"
+>
   <li
+    className="song"
     key="billy"
   >
     <Song />
   </li>
   <li
+    className="song"
     key="strings"
   >
     <Song />
